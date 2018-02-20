@@ -7,7 +7,7 @@
         ".gitignore": true,
         "karma.conf.js": true,
         "package-lock.json": true,
-        "package.json": true,
+        // "package.json": true,
         "protractor.conf.js": true,
         "README.md": true,
         "tsconfig.json": true,

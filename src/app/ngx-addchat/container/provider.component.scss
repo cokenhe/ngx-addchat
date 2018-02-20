@@ -1,33 +1,39 @@
+@import "../../../../node_modules/ionicons/css/ionicons.css";
+
 .chat-provider {
     .icon-wrapper {
         width: 50px;
         height: 50px;
-        margin: 10px 0 10px;
+        margin: 10px 0;
         border-radius: 50%;
         text-align: center;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
         cursor: pointer;
         i {
             color: white;
-            font-size: 20px;
-            line-height: 50px;
+            font-size: 35px;
+            line-height: 55px;
+        }
+        &:hover{
+            box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.7);
         }
     }
     .zendesk-wrapper {
         background: #f79a3e ;
         &:hover {
-            background: darken(#f79a3e , 10%)
+            background: darken(#f79a3e , 5%)
         }
     }
     .facebook-wrapper {
         background: #0084ff ;
         &:hover {
-            background: darken(#0084ff , 10%)
+            background: darken(#0084ff , 5%)
         }
     }
     .whatsapp-wrapper {
         background: #4dc247;
         &:hover {
-            background: darken(#4dc247, 10%)
+            background: darken(#4dc247, 5%)
         }
     }
     .fb-iframe {

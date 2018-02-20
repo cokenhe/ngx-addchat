@@ -1,3 +1,6 @@
+@import "../../../../node_modules/ionicons/css/ionicons.css";
+// @import url(/node_modules/ionicons/css/ionicons.css);
+
 .chat-container {
     position: fixed;
     right: 20px;
@@ -10,14 +13,19 @@
         width: 50px;
         height: 50px;
         color: white;
-        text-align: center;
+        text-align: center;box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
         i {
-            transition: 0.3s all ease-in-out;
-            font-size: 20px;
-            line-height: 50px;
+            display: inline-block;
+            transition: 300ms all ease-in-out;
+            font-size: 35px;
+            line-height: 55px;
+            width: 50px;
+            height: 50px;
         }
-        &:hover {
-            background: darken(#333, 10%);
+        &:hover{
+            box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.7);
+        }
+        &.toggled{
             i {
                 transform: rotate(360deg);
             }
