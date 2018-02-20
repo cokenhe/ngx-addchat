@@ -1,0 +1,6 @@
+<div class="chat-container">
+  <app-provider *ngIf="!mainBtnActive"></app-provider>
+  <div class="main-btn" (click)="mainBtnActive = !mainBtnActive" (mouseenter)="mainBtnActive = false">
+    <i [ngClass]="{'ion-ios-chatbubble': mainBtnActive, 'ion-ios-close-empty': !mainBtnActive}" class="ion"></i>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="chat-provider">
+  <div class="icon-wrapper zendesk-wrapper" *ngIf="!showFbiFrame">
+    <a class="zen-msg-btn" href="https://api.whatsapp.com/send?phone=85255737471&amp;text=Hello!" target="_black">
+      <i class="ion ion-ios-chatbubble"></i>
+    </a>
+  </div>
+  <div class="icon-wrapper whatsapp-wrapper" *ngIf="!showFbiFrame">
+    <a class="wtsp-msg-btn" href="https://api.whatsapp.com/send?phone=85255737471&amp;text=Hello!" target="_black">
+      <i class="ion ion-social-whatsapp-outline"></i>
+    </a>
+  </div>
+  <div class="icon-wrapper facebook-wrapper" *ngIf="!showFbiFrame" (click)="showFbiFrame = !showFbiFrame">
+    <i class="ion ion-social-facebook"></i>
+  </div>
+
+  <div *ngIf="showFbiFrame" class="fb-iframe">
+    <div class="title">
+      <i class="ion ion-social-facebook"></i>
+      <h6>Facebook Messenger</h6>
+      <i (click)="showFbiFrame = !showFbiFrame" class="ion ion-ios-close-empty"></i>
+    </div>
+    <iframe  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fappquick.co&tabs=messages&width=300&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" 
+      class="dialog"
+      width="300" 
+      height="300" 
+      style="border:none;overflow:hidden" 
+      scrolling="no" 
+      frameborder="0" 
+      allowTransparency="true">
+    </iframe>
+  </div>
+</div>

@@ -1,0 +1,78 @@
+.chat-provider {
+    .icon-wrapper {
+        width: 50px;
+        height: 50px;
+        margin: 10px 0 10px;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        i {
+            color: white;
+            font-size: 20px;
+            line-height: 50px;
+        }
+    }
+    .zendesk-wrapper {
+        background: #f79a3e ;
+        &:hover {
+            background: darken(#f79a3e , 10%)
+        }
+    }
+    .facebook-wrapper {
+        background: #0084ff ;
+        &:hover {
+            background: darken(#0084ff , 10%)
+        }
+    }
+    .whatsapp-wrapper {
+        background: #4dc247;
+        &:hover {
+            background: darken(#4dc247, 10%)
+        }
+    }
+    .fb-iframe {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 7px 7px 15px 8px rgba(0,0,0,0.17);
+        padding: 10px;
+        margin: 0 0 10px;
+        .title {
+            margin: -10px -10px 10px;
+            background: #3b5998;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            height: 50px;
+            overflow: hidden;
+            h6 {   
+                display: inline-block;
+                margin: 0;
+                height: 50px;
+                line-height: 50px;
+                color: white;
+                font-size: 14px;
+                font-weight: 300;
+            }
+            .ion-ios-close-empty {
+                height: 50px;
+                line-height: 50px;
+                color: white;
+                font-size: 30px;
+                margin: 0 20px;
+                cursor: pointer;
+                transition: .3s all ease-in-out;
+                float: right;
+                &:hover {
+                    color: #999;
+                }
+            }
+            .ion-social-facebook {
+                display: inline-block;
+                height: 50px;
+                line-height: 50px;
+                color: white;
+                font-size: 20px;
+                margin: 0 10px;
+            }
+        }
+    }
+}
