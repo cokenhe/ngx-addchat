@@ -7,13 +7,15 @@ import { ProviderComponent } from './container/provider.component';
 
 @NgModule({
   imports: [
-    CommonModule,
-    BrowserModule
+    CommonModule
   ],
   declarations: [
     ContainerComponent, 
     ProviderComponent, 
   ],
-  bootstrap: [ContainerComponent]
+  exports: [
+    ContainerComponent,
+    ProviderComponent
+  ]
 })
 export class NgxAddchatModule { }

@@ -12,6 +12,8 @@
         "README.md": true,
         "tsconfig.json": true,
         "tslint.json": true,
+        ".ng_pkg_build": true,
+        "dist": true,
         "src/environments": true,
         "src/polyfills.ts": true,
         "src/tsconfig.app.json": true,
