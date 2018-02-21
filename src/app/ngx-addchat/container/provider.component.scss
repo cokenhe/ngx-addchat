@@ -1,4 +1,4 @@
-@import "~ionicons/css/ionicons.css";
+// @import "~ionicons/css/ionicons.css";
 
 .chat-provider {
     .icon-wrapper {
@@ -40,10 +40,12 @@
         background: white;
         border-radius: 10px;
         box-shadow: 7px 7px 15px 8px rgba(0,0,0,0.17);
-        padding: 10px;
         margin: 0 0 10px;
+        //padding: 10px;            
+        height: 350px;
+        overflow: hidden;
         .title {
-            margin: -10px -10px 10px;
+            //margin: -10px -10px 10px;
             background: #3b5998;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;

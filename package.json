@@ -1,6 +1,6 @@
 {
   "name": "ngx-addchat",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -17,11 +17,8 @@
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
     "@angular/core": "^5.0.0",
-    "@angular/forms": "^5.0.0",
-    "@angular/http": "^5.0.0",
     "@angular/platform-browser": "^5.0.0",
     "@angular/platform-browser-dynamic": "^5.0.0",
-    "@angular/router": "^5.0.0",
     "ajv": "^6.1.1",
     "core-js": "^2.4.1",
     "ionicons": "^2.0.1",
@@ -50,5 +47,7 @@
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.",
+  "author": "Ken Ho"
 }
