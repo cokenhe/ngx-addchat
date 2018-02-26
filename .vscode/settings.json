@@ -8,7 +8,7 @@
         "karma.conf.js": true,
         "ng-package.json": true,
         "package-lock.json": true,
-        "package.json": true,
+        // "package.json": true,
         "public_api.ts": true,
         "protractor.conf.js": true,
         "README.md": true,
