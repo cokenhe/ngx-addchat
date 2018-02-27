@@ -1,6 +1,6 @@
 {
   "name": "ngx-addchat",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -47,7 +47,7 @@
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
   },
-  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.",
+  "description": "Adding instance message platforms to your website.",
   "author": "Ken Ho",
   "repository": "https://github.com/cokenhe/ngx-addchat.git"
 }
