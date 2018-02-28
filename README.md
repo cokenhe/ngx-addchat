@@ -3,6 +3,7 @@ Adding instance message shortcut to your website.
 Now supported platform:
 1. Whatsapp
 2. Facebook Messenger
+![](image/demo.gif)
 
 ## Getting Started
 
