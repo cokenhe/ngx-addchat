@@ -1,6 +1,6 @@
 <div class="chat-provider">
   <div class="icon-wrapper whatsapp-wrapper" *ngIf="!showFbiFrame">
-    <a class="wtsp-msg-btn" href="https://api.whatsapp.com/send?phone=85255737471&amp;text=Hello!" target="_black">
+    <a class="wtsp-msg-btn" href="https://api.whatsapp.com/send?phone={{ phoneNumber }}&amp;text=Hello!" target="_black">
       <i class="icon ion-social-whatsapp-outline"></i>
     </a>
   </div>
@@ -23,6 +23,8 @@
       frameborder="0" 
       allowTransparency="true">
     </iframe>
+
+   
 
 
   </div>

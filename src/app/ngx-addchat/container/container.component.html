@@ -1,6 +1,6 @@
 <div class="chat-container">
-  <chat-provider *ngIf="!mainBtnActive"></chat-provider>
+  <chat-provider phoneNumber={{phoneNumber}} *ngIf="!mainBtnActive"></chat-provider>
   <div [ngClass]="{'toggled': !mainBtnActive}" class="main-btn" (click)="mainBtnActive = !mainBtnActive" (mouseenter)="mainBtnActive = false">
-    <i [ngClass]="{'chat-bubble': mainBtnActive, 'close': !mainBtnActive}"></i>
+    <i [ngClass]="{'ion-chat-bubble': mainBtnActive, 'ion-close-empty': !mainBtnActive}"></i>
   </div>
 </div>

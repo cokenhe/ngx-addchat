@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'chat-provider',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./provider.component.scss']
 })
 export class ProviderComponent implements OnInit {
+
+  @Input() phoneNumber?: string
 
   public showFbiFrame = false;
 
