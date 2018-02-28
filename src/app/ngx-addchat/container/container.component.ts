@@ -1,13 +1,15 @@
 import { Component, OnInit, Input } from '@angular/core';
  
 @Component({
-  selector: 'chat-container',
+  selector: 'ngx-addchat',
   templateUrl: './container.component.html',
   styleUrls: ['./container.component.scss']
 })
 export class ContainerComponent implements OnInit {
 
-  @Input() phoneNumber?: string
+  @Input() whatsapp?: string
+
+  @Input() fbPageName?: string
 
   public mainBtnActive = true;
 

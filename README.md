@@ -1,6 +1,3 @@
-
-  
-
 # ngx-addchat
 Adding instance message shortcut to your website.
 Now supported platform:
