@@ -1,6 +1,6 @@
 {
   "name": "ngx-addchat",
-  "version": "0.1.13",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -49,5 +49,12 @@
   },
   "description": "Adding instance message platforms to your website.",
   "author": "Ken Ho",
-  "repository": "https://github.com/cokenhe/ngx-addchat.git"
+  "repository": "https://github.com/AppQuick/ngx-addchat.git",
+  "keywords": [
+    "IM app",
+    "instance message",
+    "chat bubble",
+    "angular",
+    "contact us"
+  ]
 }

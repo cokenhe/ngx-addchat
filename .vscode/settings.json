@@ -4,7 +4,7 @@
         "node_modules": true,
         ".angular-cli.json": true,
         ".editorconfig": true,
-        ".gitignore": true,
+        // ".gitignore": true,
         "karma.conf.js": true,
         "ng-package.json": true,
         "package-lock.json": true,

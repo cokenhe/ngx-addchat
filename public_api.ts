@@ -1,1 +1,1 @@
-export * from "./src/app/ngx-addchat/ngx-addchat.module"
+export * from "./src/ngx-addchat/ngx-addchat.module"

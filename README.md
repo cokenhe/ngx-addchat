@@ -3,6 +3,7 @@ Adding instance message shortcut to your website.
 Now supported platform:
 1. Whatsapp
 2. Facebook Messenger
+![](image/demo.gif)
 
 ## Getting Started
 
@@ -39,6 +40,7 @@ Now supported platform:
 whatsapp="<country code><phone number>"
 ```
 Insert `whatsapp` into  `<ngx-addchat>`.
+
 **_Example_**
 ```html
 <ngx-addchat whatsapp="85255737471"></ngx-addchat>
@@ -50,6 +52,7 @@ Insert `whatsapp` into  `<ngx-addchat>`.
 fbPageName="<the name of facebook page>"
 ```
 Insert `fbPageName` into the `<ngx-addchat>`
+
 **_Example_**
 ```html
 <ngx-addchat fbPageName="appquick.co"></ngx-addchat>
