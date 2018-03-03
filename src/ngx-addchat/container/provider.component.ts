@@ -8,7 +8,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class ProviderComponent implements OnInit {
 
-  @Input() phoneNumber: string
+  @Input() whatsapp: string
 
   @Input() fbPageName: string
 

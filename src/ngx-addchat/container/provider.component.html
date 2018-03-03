@@ -1,10 +1,10 @@
 <div class="chat-provider">
-  <div class="icon-wrapper whatsapp-wrapper" *ngIf="!showFbiFrame">
-    <a class="wtsp-msg-btn" href="https://api.whatsapp.com/send?phone={{ phoneNumber }}&amp;text=Hello!" target="_black">
+  <div class="icon-wrapper whatsapp-wrapper" *ngIf="!showFbiFrame && whatsapp">
+    <a class="wtsp-msg-btn" href="https://api.whatsapp.com/send?phone={{ whatsapp }}&amp;text=Hello!" target="_black">
       <i class="icon ion-social-whatsapp-outline"></i>
     </a>
   </div>
-  <div class="icon-wrapper facebook-wrapper" *ngIf="!showFbiFrame" (click)="showFbiFrame = !showFbiFrame">
+  <div class="icon-wrapper facebook-wrapper" *ngIf="!showFbiFrame && fbPageName" (click)="showFbiFrame = !showFbiFrame">
     <i class="ion-social-facebook"></i>
   </div>
 
