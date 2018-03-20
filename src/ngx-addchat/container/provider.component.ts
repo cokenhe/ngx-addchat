@@ -1,10 +1,23 @@
+import { animation, trigger, transition, animate, state, style, keyframes } from '@angular/animations'
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'chat-provider',
   templateUrl: './provider.component.html',
-  styleUrls: ['./provider.component.scss']
+  styleUrls: ['./provider.component.scss'],
+  animations: [
+    trigger('providerAnimate', [
+      transition(":enter", animate("300ms ease-in-out", keyframes([
+        style({transform: "translateX(20px)", opacity: 0, offset: 0}),
+        style({transform: "translateX(0)", opacity: 1, offset: 1}),
+      ]))),
+      transition(":leave", animate("300ms ease-in-out", keyframes([
+        style({transform: "translateX(0)", opacity: 1, offset: 0}),
+        style({transform: "translateX(20px)", opacity: 0, offset: 1}),
+      ])))
+    ])
+  ]
 })
 export class ProviderComponent implements OnInit {
 
